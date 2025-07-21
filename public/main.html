@@ -1,0 +1,24 @@
+<!-- главная страница с кнопкой регистрации или входа-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sign Up / Log In</title>
+  <link rel="stylesheet" href="/public/style.css" />
+</head>
+<body>
+  <h1>Welcome</h1>
+
+  <form>
+    <label for="email">Email:</label><br />
+    <input type="email" id="email" name="email" placeholder="Enter your email" required /><br /><br />
+
+    <label for="password">Password:</label><br />
+    <input type="password" id="password" name="password" placeholder="Enter your password" required /><br /><br />
+
+    <button type="submit" formaction="calendar.html" formmethod="get">Sign Up</button>
+    <button type="button" onclick="location.href='login.html'">Log In</button>
+  </form>
+</body>
+</html>
